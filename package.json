@@ -1,0 +1,30 @@
+{
+  "name": "mail-scanner",
+  "version": "1.0.0",
+  "description": "Yahoo Mail Fetcher using IMAP",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "ts-node-dev --respawn src/emailWatcher.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.68.0",
+    "dayjs": "^1.11.19",
+    "dotenv": "17.2.3",
+    "imap-simple": "5.1.0",
+    "mailparser": "^3.9.0",
+    "prettier": "^3.6.2",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@types/imap-simple": "^4.2.5",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "overrides": {
+    "utf7": "1.0.1"
+  }
+}

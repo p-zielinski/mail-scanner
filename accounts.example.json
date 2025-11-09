@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Yahoo Primary",
+    "user": "your-email@yahoo.com",
+    "password": "your-generated-app-password",
+    "host": "imap.mail.yahoo.com",
+    "port": 993,
+    "tls": true,
+    "scamThreshold": 80,
+    "emailsAnalyzedUntil": null
+  },
+  {
+    "label": "Gmail Work",
+    "user": "your-email@gmail.com",
+    "password": "your-app-password-or-oauth-token",
+    "host": "imap.gmail.com",
+    "port": 993,
+    "tls": true,
+    "scamThreshold": 85,
+    "emailsAnalyzedUntil": null
+  }
+]
